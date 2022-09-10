@@ -1,4 +1,10 @@
+
+ 
 void main() {
+
+ /* processes uses .reversed for holding values in the sequential order of the declaration as displayed in the enum */
+ /* otherwise it would appear in the opposite order which is not intuitive */
+
   /*var baseGear = IncreasingGears(Engine.error, null);
   var fifthGear = IncreasingGears(Engine.fifth, baseGear);
   var fourthGear = IncreasingGears(Engine.fourth, fifthGear);
